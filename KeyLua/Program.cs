@@ -9,7 +9,7 @@ namespace KeyLua
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(string.Format("KeyLua\n{0} Sharkbyteprojects\n", ((char)0x00a9).ToString()));
+            Console.WriteLine(string.Format("KeyLua\n{0} Sharkbyteprojects\nHelp: https://github.com/Sharkbyteprojects/Windows-Lua-Interpreter-with-Keyboard\n", ((char)0x00a9).ToString()));
             callable c = new callable();
             foreach (string arg in args)
             {
@@ -52,6 +52,8 @@ namespace KeyLua
                     }
                 }
             }
+            Console.WriteLine("Press any Key to exit ...");
+            Console.ReadKey();
         }
     }
 }

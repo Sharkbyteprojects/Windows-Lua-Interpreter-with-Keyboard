@@ -2,6 +2,8 @@
 
 Make Lua Powerful!
 
+[Download Setup](https://github.com/Sharkbyteprojects/Windows-Lua-Interpreter-with-Keyboard/raw/master/.bin/interpreterSetup.exe)
+
 Based on Moonsharp
 
 You can use the most of Luas Std Lib's
