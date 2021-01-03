@@ -1,14 +1,20 @@
 ﻿using System;
 using System.IO;
 using MoonSharp.Interpreter;
+using System.Runtime.InteropServices;
 using CallLua.Callablethings;
 
 namespace KeyLua
 {
     class Program
     {
+        [DllImport("kernel32.dll", SetLastError = true)]
+        [return: MarshalAs(UnmanagedType.Bool)]
+        static extern bool AllocConsole();
+
         static void Main(string[] args)
         {
+            AllocConsole();
             Console.WriteLine(string.Format("KeyLua\n{0} Sharkbyteprojects\nHelp: https://github.com/Sharkbyteprojects/Windows-Lua-Interpreter-with-Keyboard\n", ((char)0x00a9).ToString()));
             callable c = new callable();
             foreach (string arg in args)
@@ -18,7 +24,9 @@ namespace KeyLua
                     if (File.Exists(arg))
                     {
                         Console.WriteLine(string.Format("Are you Sure to run {0} (IF YES, PRESS Y): ", arg));
-                        if (Console.ReadKey().Key == ConsoleKey.Y)
+                        bool openit = Console.ReadKey().Key == ConsoleKey.Y;
+                        Console.WriteLine("");
+                        if (openit)
                         {
                             try
                             {
