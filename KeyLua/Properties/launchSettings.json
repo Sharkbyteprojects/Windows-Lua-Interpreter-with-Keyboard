@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "KeyLua": {
+      "commandName": "Project",
+      "commandLineArgs": "testarg"
+    }
+  }
+}
