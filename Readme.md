@@ -22,11 +22,11 @@ Returns		| Args						| Functionname		 | Example												| Describtion
 ------------|---------------------------|--------------------|------------------------------------------------------|-----------------------------------------------
 nothing		| int seconds				| `wait`			 | `wait(10)`											| Wait for `x` Seconds
 bool 		| string key				| `keypress`		 | `keypress("return")`									| Press the key `x`
-			| string key, bool pressed	| `keystate`		 | `keystate("return", true)`							| Press down or release (`y`) key `x`
-			| string key, string key2	| `keystroke`		 | `keystroke("ctrl", "c")`								| Press keys `x` and `y`
-			| string text				| `keytext`			 | `keytext("Hello World!")`							| Type Text `x` with Keyboard
+bool		| string key, bool pressed	| `keystate`		 | `keystate("return", true)`							| Press down or release (`y`) key `x`
+bool		| string key, string key2	| `keystroke`		 | `keystroke("ctrl", "c")`								| Press keys `x` and `y`
+bool		| string text				| `keytext`			 | `keytext("Hello World!")`							| Type Text `x` with Keyboard
 nothing		| nothing					| `pause`			 | `pause()`											| Similar to `cmd` command `pause`
-			| string text				| `print`			 | `print("Hello World")`								| Print text `x` in console
+nothing		| string text				| `print`			 | `print("Hello World")`								| Print text `x` in console
 string		| string text				| `input`			 | `local dish = input("What your favorite dish")`		| Wait for user input on console
 bool		| string path				| `file_exist`		 | `if(file_exist("C:\\temp.txt"));do`					| If file `x` exist
 string		| string path				| `file_read`		 | `local mydata = file_read("C:\\temp.txt")`			| Read file `x`
