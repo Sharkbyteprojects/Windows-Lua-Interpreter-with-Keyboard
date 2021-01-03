@@ -1,9 +1,9 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>cert\Sharkbyteprojects.snk</AssemblyOriginatorKeyFile>
     <StartupObject>KeyLua.Program</StartupObject>
     <ApplicationIcon>ico\key.ico</ApplicationIcon>
