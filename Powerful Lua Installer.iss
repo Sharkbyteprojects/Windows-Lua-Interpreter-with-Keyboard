@@ -1,5 +1,5 @@
 #define MyAppName "Powerful Lua Key"
-#define MyAppVersion "1"
+#define MyAppVersion "1.2"
 #define MyAppPublisher "Sharkbyteprojects"
 #define MyAppURL "https://github.com/Sharkbyteprojects/Windows-Lua-Interpreter-with-Keyboard#lua-key-interpret-for-windows"
 #define MyAppExeName "KeyLua.exe"

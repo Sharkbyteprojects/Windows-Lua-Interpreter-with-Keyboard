@@ -2,8 +2,6 @@
 
 Make Lua Powerful!
 
-[Download Setup](https://github.com/Sharkbyteprojects/Windows-Lua-Interpreter-with-Keyboard/raw/master/.bin/interpreterSetup.exe)
-
 Based on Moonsharp
 
 You can use the most of Luas Std Lib's
@@ -17,6 +15,12 @@ function main()
 
 end
 ```
+
+## Download
+
+You need also the [.NET Core 3.1](https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-desktop-3.1.10-windows-x86-installer) or [Mono (NOT TESTED ON MONO)](https://mono-project.com/)
+
+- [Download Setup](https://github.com/Sharkbyteprojects/Windows-Lua-Interpreter-with-Keyboard/raw/master/.bin/interpreterSetup.exe)
 
 ## Additional Functions
 
