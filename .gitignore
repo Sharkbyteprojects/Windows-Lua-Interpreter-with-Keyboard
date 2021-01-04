@@ -12,7 +12,7 @@
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
-
+*.snk
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
