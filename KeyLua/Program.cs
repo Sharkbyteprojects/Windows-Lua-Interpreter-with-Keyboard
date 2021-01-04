@@ -23,6 +23,7 @@ namespace KeyLua
                 {
                     if (File.Exists(arg))
                     {
+                        Console.WriteLine("§WARNING§: Press only Y if you trust the Script!");
                         Console.WriteLine(string.Format("Are you Sure to run {0} (IF YES, PRESS Y): ", arg));
                         bool openit = Console.ReadKey().Key == ConsoleKey.Y;
                         Console.WriteLine("");
